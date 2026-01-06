@@ -47,8 +47,7 @@ function renderCandidate(c) {
   candidateBox.innerHTML = `
     <h5>${c.name}</h5>
     <p><strong>Mobile:</strong> ${c.mobile}</p>
-    <p><strong>Role:</strong> ${c.role}</p>
-
+ 
     <select id="callStatus" class="form-select mb-2">
       <option value="HOT">Hot</option>
       <option value="WARM">Warm</option>
